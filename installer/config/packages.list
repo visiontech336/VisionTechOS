@@ -1,0 +1,62 @@
+# VisionTechOS — base package list
+# One package per line. Comments and blank lines are ignored.
+
+# Core system
+linux-image-amd64
+linux-headers-amd64
+firmware-linux
+firmware-linux-nonfree
+sudo
+systemd
+systemd-sysv
+dbus
+
+# Filesystem tools
+e2fsprogs
+dosfstools
+parted
+gdisk
+
+# Networking
+network-manager
+wireless-tools
+wpasupplicant
+curl
+wget
+ca-certificates
+
+# Shell & utilities
+bash
+bash-completion
+vim
+nano
+htop
+less
+man-db
+lsblk
+util-linux
+
+# Desktop (Wayland + lightweight compositor — swap for your own)
+xorg
+xwayland
+sway
+waybar
+foot
+wofi
+grim
+slurp
+mako
+
+# Audio
+pipewire
+pipewire-pulse
+wireplumber
+
+# Fonts
+fonts-noto
+fonts-noto-color-emoji
+
+# Basic apps
+firefox-esr
+thunar
+mousepad
